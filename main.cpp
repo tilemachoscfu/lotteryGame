@@ -12,7 +12,7 @@ int main() {
     int lotto[6];
     bool unique;
     int user[6];
-    int tottalCounters[2][4]= {0};
+    int Counters[2][4]= {0};
     char replay;
 
 
@@ -86,7 +86,7 @@ int main() {
 
         if(counter == 6)
         {
-            tottalCounters[1][0] ++;
+            Counters[1][0] ++;
             cout << endl << "--------------------";
             cout << endl << "You found "<< counter <<" correct numbers."<< endl;
             cout << "You are the Grand Prize Winner!"<<endl;
@@ -94,7 +94,7 @@ int main() {
         }
         else if(counter == 5)
         {
-            tottalCounters[1][1] ++;
+            Counters[1][1] ++;
             cout << endl << "--------------------";
             cout << endl << "You found "<< counter <<" correct numbers."<< endl;
             cout << "You won a big prize"<< endl;
@@ -102,7 +102,7 @@ int main() {
         }
         else if(counter == 4)
         {
-            tottalCounters[1][2] ++;
+            Counters[1][2] ++;
             cout << endl << "--------------------";
             cout << endl <<"You found "<< counter <<" correct numbers."<< endl;
             cout << "You won, Congratulations!" << endl;
@@ -110,7 +110,7 @@ int main() {
         }
         else if(counter == 3)
         {
-            tottalCounters[1][3] ++;
+            Counters[1][3] ++;
             cout << endl << "--------------------";
             cout << endl << "You found "<< counter <<" correct numbers."<< endl;
             cout << "You Won!"<<endl;
