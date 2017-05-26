@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1491214315 source:/home/tilemachos/Desktop/lotto/main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+
+1495797047 source:/home/tilemachos/Documents/ESC-SUNY/Introduction to C++ (G.Prokopakis)/Assignments/lottery/main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+
