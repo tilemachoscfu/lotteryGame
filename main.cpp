@@ -17,6 +17,10 @@ int main() {
 
 
     srand(time(0));
+    
+    cout << "----------------------------------" << endl;
+    cout << "          W E L C O M E           " << endl;
+    cout << "----------------------------------" << endl;
     while(true){
     cout <<"Enter six digits between 1 and 50: " << endl;
     for(int i = 0; i < 6; i++){
@@ -72,9 +76,9 @@ int main() {
     //Check for matches between the user array and the lottery array
    int counter = 0;
 
-   for(int i = -1; i < 6; i++)
+   for(int i = 0; i < 6; i++)
    {
-        for(int j = -1; j < 6; j++)
+        for(int j = 0; j < 6; j++)
         {
             if(i != j && lotto[i] == user[j])
             {
