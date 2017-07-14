@@ -14,7 +14,6 @@ int main() {
         bool unique;
         int user[6];
         int Counters[2][4]= {0};
-        char replay;
 
 
         srand(time(0));
